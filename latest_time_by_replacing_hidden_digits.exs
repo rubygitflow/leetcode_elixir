@@ -2,7 +2,7 @@
 # 1736. Latest Time by Replacing Hidden Digits
 
 defmodule Solution do
-  # @spec maximum_time(time :: String.t) :: String.t
+  @spec maximum_time(time :: String.t) :: String.t
   # def maximum_time(time) do
   def maximum_time(<<h1, h2, _, m1, m2>>) do
     {max_h1, max_h2} = max_hour(h1, h2)

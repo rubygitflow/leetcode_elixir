@@ -2,7 +2,7 @@
 # 870. Advantage Shuffle
 
 defmodule Solution do
-  # @spec advantage_count(nums1 :: [integer], nums2 :: [integer]) :: [integer]
+  @spec advantage_count(nums1 :: [integer], nums2 :: [integer]) :: [integer]
   def advantage_count(nums1, nums2) when length(nums1) != length(nums2), do: []
 
   def advantage_count(nums1, nums2) do
