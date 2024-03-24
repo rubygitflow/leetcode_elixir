@@ -18,14 +18,10 @@ defmodule Solution do
   defp do_iterate(x, k, avg, _sum) do
     excluded = Enum.reduce_while(x, [], fn num, acc ->
       s = Enum.sum(acc)
-      if s + num == avg do
-        {:halt, acc ++ [num]}
-      else
-        if s + num < avg do
-          {:cont, acc ++ [num]}
-        else
-          {:cont, acc} 
-        end
+      cond do
+        s + num == avg -> {:halt, acc ++ [num]}
+        s + num < avg  -> {:cont, acc ++ [num]}
+        true           -> {:cont, acc}
       end
     end)
     s = Enum.sum(excluded)
