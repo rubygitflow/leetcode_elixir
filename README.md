@@ -11,7 +11,10 @@ Solving algorithmic problems on leetcode.com
 - [1736. Latest Time by Replacing Hidden Digits](https://leetcode.com/problems/latest-time-by-replacing-hidden-digits/) >>> [latest_time_by_replacing_hidden_digits.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/latest_time_by_replacing_hidden_digits.exs)
 - [1929. Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/) >>> [concatenation_of_array.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/concatenation_of_array.exs)
 
-**Tasks: 9  >>> Files: 8**
+## Addition
+- Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/matching_strings_up_to_letter_permutation.exs)
+
+**Tasks: 9(1)  >>> Files: 9**
 
 ## Install
 ```shell
