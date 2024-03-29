@@ -5,7 +5,6 @@
 
 defmodule Solution do
   @spec match_substring(hoststring :: String.t, substring :: String.t) :: integer
-  def match_substring(hoststring, substring) when length(hoststring) < length(substring), do: -1 
   def match_substring(hoststring, substring) do
     match_iter(
       0,
@@ -36,5 +35,5 @@ end
 # Output: 4
 "reebokee" |> Solution.match_substring("mee") |> IO.inspect()
 # Output: -1
-"mee" |> Solution.match_substring("reebokee") |> IO.inspect()
+"bee" |> Solution.match_substring("reebokee") |> IO.inspect()
 # Output: -1
