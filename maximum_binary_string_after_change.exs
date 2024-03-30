@@ -27,7 +27,7 @@ end
 "01" |> Solution.maximum_binary_string() |> IO.inspect()
 # Output: "01"
 "1101011" |> Solution.maximum_binary_string() |> IO.inspect()
-# Output: "1111011"
+# Output: "1110111"
 "0000" |> Solution.maximum_binary_string() |> IO.inspect()
 # Output: "1110"
 "1111" |> Solution.maximum_binary_string() |> IO.inspect()
