@@ -4,6 +4,7 @@ Solving algorithmic problems on leetcode.com
 - [1. Two Sum](https://leetcode.com/problems/two-sum/) >>> [two_sum.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/two_sum.exs)
 - [15. 3Sum](https://leetcode.com/problems/3sum/) >>> [three_sum.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/three_sum.exs)
 - [18. 4Sum](https://leetcode.com/problems/4sum/) >>> [four_sum.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/four_sum.exs)
+- [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/) >>> [valid_anagram.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/valid_anagram.exs)
 - [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) >>> [two_sum.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/two_sum.exs)
 - [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) >>> [valid_anagram.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/valid_anagram.exs)
 - [870. Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/) >>> [advantage_shuffle.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/advantage_shuffle.exs)
@@ -15,7 +16,7 @@ Solving algorithmic problems on leetcode.com
 ## Addition
 - Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/matching_strings_up_to_letter_permutation.exs)
 
-**Tasks: 10(1)  >>> Files: 10**
+**Tasks: 11(1)  >>> Files: 10**
 
 ## Install
 ```shell
