@@ -2,18 +2,29 @@
 # 1109. Corporate Flight Bookings
 
 defmodule TarjanState do
-  defstruct [:discovered, :lowest, :bridges, :times]
+  defstruct [:discovered, :lowest, :visited, :bridges, :times]
 
   def new() do
-    %TarjanState{discovered: %{}, lowest: %{}, bridges: [], times: 0}
+    %TarjanState{discovered: %{}, lowest: %{}, visited: %{}, bridges: [], times: 0}
   end
 end
 
 defmodule Solution do
+  defp tarjan(u, _p, _graph, state, n) when u >= n, do: state
+  defp tarjan(u, p, graph, state, n) do
+    state = tarjan(u, p, graph, state)
+    i = MapSet.difference(
+      MapSet.new(0..n),
+      MapSet.new(Map.keys(state.visited))
+    ) |> Enum.min()
+    tarjan(i, p, graph, state, n)
+  end
+
   defp tarjan(u, p, graph, state) do
     state = Map.update!(state, :times, &(&1 + 1))
     state = Map.update!(state, :discovered, &Map.put(&1, u, state.times))
     state = Map.update!(state, :lowest, &Map.put(&1, u, state.times))
+    state = Map.update!(state, :visited, &Map.put(&1, u, true))
 
     Map.get(graph, u, [])
     |> Enum.reject(fn v -> v == p end)
@@ -36,13 +47,13 @@ defmodule Solution do
   end
 
   @spec critical_connections(n :: integer, connections :: [[integer]]) :: [[integer]]
-  def critical_connections(_n, connections) do
+  def critical_connections(n, connections) do
     graph =
       Enum.reduce(connections, Map.new(), fn [u, v], acc ->
         Map.update(acc, u, [v], &[v | &1]) |> Map.update(v, [u], &[u | &1])
       end)
 
-    tarjan(0, -1, graph, TarjanState.new()).bridges
+    tarjan(0, -1, graph, TarjanState.new(), n).bridges
   end
 end
 
@@ -57,8 +68,8 @@ end
 6 |> Solution.critical_connections([[0,1],[1,2],[2,0],[1,3],[3,4],[4,5],[5,3]]) |> IO.inspect()
 # Output: [[1,3]]
 # 2 donuts
-6 |> Solution.critical_connections([[0,1],[1,2],[2,0],      [3,4],[4,5],[5,3]]) |> IO.inspect()
-# Output: []
+7 |> Solution.critical_connections([[0,1],[1,2],[2,0],      [3,4],[4,5],[5,3],[5,6]]) |> IO.inspect()
+# Output: [[5,6]]
 # star
 7 |> Solution.critical_connections([[0,1],[0,2],[2,3],[0,4],[0,5],[5,6]]) |> IO.inspect()
 # Output: [[0, 1], [2, 3], [0, 2], [0, 4], [5, 6], [0, 5]]
