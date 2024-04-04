@@ -16,6 +16,7 @@ Solving algorithmic problems on leetcode.com
 - [1480. Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) >>> [running_sum.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/running_sum.exs)
 - [1578. Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/) >>> [minimum_time_to_make_rope_colorful.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/minimum_time_to_make_rope_colorful.exs)
 - [1604. Alert Using Same Key-Card Three or More Times in a One Hour Period](https://leetcode.com/problems/alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/) >>> [alert_using_same_key_card.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/alert_using_same_key_card.exs)
+- [1700. Number of Students Unable to Eat Lunch](https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/) >>> [number_of_students_unable_to_eat_lunch.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/number_of_students_unable_to_eat_lunch.exs)
 - [1701. Average Waiting Time](https://leetcode.com/problems/average-waiting-time/) >>> [average_vaiting_time.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/average_vaiting_time.exs)
 - [1702. Maximum Binary String After Change](https://leetcode.com/problems/maximum-binary-string-after-change/) >>> [maximum_binary_string_after_change.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/maximum_binary_string_after_change.exs)
 - [1723. Find Minimum Time to Finish All Jobs](https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs/) >>> [find_minimum_time_to_finish_all_jobs.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/find_minimum_time_to_finish_all_jobs.exs)
@@ -25,7 +26,7 @@ Solving algorithmic problems on leetcode.com
 ## Addition
 - Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/matching_strings_up_to_letter_permutation.exs)
 
-**Tasks: 20(1)  >>> Files: 19**
+**Tasks: 21(1)  >>> Files: 20**
 
 ## Install
 ```shell

@@ -31,3 +31,5 @@ end
 # Output: 2
 "leetcode" |> Solution.max_number_of_balloons() |> IO.inspect()
 # Output: 0
+"regret" |> Solution.max_number_of_balloons() |> IO.inspect()
+# Output: 0
