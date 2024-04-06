@@ -13,6 +13,7 @@ Solving algorithmic problems on leetcode.com
 - [1189. Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/) >>> [maximum_number_of_balloons.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/maximum_number_of_balloons.exs)
 - [1192. Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/) >>> [critical_connections_in_a_network.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/critical_connections_in_a_network.exs)
 - [1266. Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/) >>> [minimum_time_visiting_all_points.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/minimum_time_visiting_all_points.exs)
+- [1376. Time Needed to Inform All Employees](https://leetcode.ca/2019-09-06-1376-Time-Needed-to-Inform-All-Employees/) >>> [time_needed_to_inform.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/time_needed_to_inform.exs)
 - [1450. Number of Students Doing Homework at a Given Time](https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/) >>> [number_of_students_doing_homework_at_a_given_time.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/number_of_students_doing_homework_at_a_given_time.exs)
 - [1451. Rearrange Words in a Sentence](https://leetcode.com/problems/rearrange-words-in-a-sentence/) >>> [rearrange_words_in_a_sentence.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/rearrange_words_in_a_sentence.exs)
 - [1480. Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) >>> [running_sum.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/running_sum.exs)
@@ -30,7 +31,7 @@ Solving algorithmic problems on leetcode.com
 ## Addition
 - Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/matching_strings_up_to_letter_permutation.exs)
 
-**Tasks: 25(1)  >>> Files: 24**
+**Tasks: 26(1)  >>> Files: 25**
 
 ## Install
 ```shell
