@@ -8,7 +8,7 @@ defmodule Solution do
       |> Enum.to_list()
       |> Enum.reverse()
       |> Enum.find(fn el -> Enum.member?(arr, el) end)
-    if out == nil do
+    if is_nil(out) do
       ""
     else
       hour_first_digit(List.delete(arr, out), to_string(out))
@@ -20,7 +20,7 @@ defmodule Solution do
       |> Enum.to_list()
       |> Enum.reverse()
       |> Enum.find(fn el -> Enum.member?(arr, el) end)
-    if out == nil do
+    if is_nil(out) do
       ""
     else
       minute_second_digit(List.delete(arr, out), res <> to_string(out) <> ":")
@@ -32,7 +32,7 @@ defmodule Solution do
       |> Enum.to_list()
       |> Enum.reverse()
       |> Enum.find(fn el -> Enum.member?(arr, el) end)
-    if out == nil do
+    if is_nil(out) do
       ""
     else
       minute_first_digit(List.delete(arr, out), res <> to_string(out))
