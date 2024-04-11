@@ -7,6 +7,7 @@ Solving algorithmic problems on leetcode.com
 - [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/) >>> [valid_anagram.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/valid_anagram.exs)
 - [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) >>> [two_sum.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/two_sum.exs)
 - [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) >>> [valid_anagram.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/valid_anagram.exs)
+- [704. Binary Search](https://leetcode.com/problems/binary-search/) >>> [binary_search.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/binary_search.exs)
 - [870. Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/) >>> [advantage_shuffle.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/advantage_shuffle.exs)
 - [949. Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits/) >>> [largest_time_for_given_digits.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/largest_time_for_given_digits.exs)
 - [983. Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) >>> [minimum_cost_for_tickets.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/minimum_cost_for_tickets.exs)
@@ -35,7 +36,7 @@ Solving algorithmic problems on leetcode.com
 ## Addition
 - Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/matching_strings_up_to_letter_permutation.exs)
 
-**Tasks: 30(1)  >>> Files: 29**
+**Tasks: 31(1)  >>> Files: 30**
 
 ## Install
 ```shell
