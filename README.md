@@ -12,6 +12,7 @@ Solving algorithmic problems on leetcode.com
 - [704. Binary Search](https://leetcode.com/problems/binary-search/) >>> [binary_search.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/binary_search.exs)
 - [870. Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/) >>> [advantage_shuffle.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/advantage_shuffle.exs)
 - [949. Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits/) >>> [largest_time_for_given_digits.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/largest_time_for_given_digits.exs)
+- [977. Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) >>> [squares_sorted_array.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/squares_sorted_array.exs)
 - [981. Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) >>> [time_based_key_value_store.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/time_based_key_value_store.exs)
 - [982. Triples with Bitwise AND Equal To Zero](https://leetcode.com/problems/triples-with-bitwise-and-equal-to-zero/) >>> [triples_with_bitwise.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/triples_with_bitwise.exs)
 - [983. Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) >>> [minimum_cost_for_tickets.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/minimum_cost_for_tickets.exs)
@@ -43,7 +44,7 @@ Solving algorithmic problems on leetcode.com
 ## Addition
 - Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/matching_strings_up_to_letter_permutation.exs)
 
-**Tasks: 38(1)  >>> Files: 35**
+**Tasks: 39(1)  >>> Files: 36**
 
 ## Install
 ```shell
