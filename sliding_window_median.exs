@@ -1,6 +1,10 @@
 # https://leetcode.com/problems/sliding-window-median/
 # 480. Sliding Window Median
 
+#######################
+# https://leetcode.com/problems/sliding-window-maximum/description/
+# 239. Sliding Window Maximum
+
 require Integer
 
 defmodule Solution do
@@ -45,6 +49,28 @@ defmodule Solution do
       (elem(wnd, median_index) + elem(wnd, median_index_next)) / 2
     end
   end
+
+  @spec max_sliding_window(nums :: [integer], k :: integer) :: [integer]
+  def max_sliding_window(nums, k) do
+    if length(nums) < k do
+      []
+    else
+      do_max_sliding_window(nums, [], k, [])
+    end
+  end
+
+  defp do_max_sliding_window([], res, k, window) when length(window) < k, do: Enum.reverse(res)
+  defp do_max_sliding_window([], res, k, window) do
+    # the last step of the cycle
+    do_max_sliding_window([], [Enum.max(window) | res], k, tl(window))
+  end
+  defp do_max_sliding_window([head | tail], res, k, window) when length(window) < k do
+    do_max_sliding_window(tail, res, k, window ++ [head])
+  end
+  defp do_max_sliding_window([head | tail], res, k, window) do
+    # the main body of the cycle
+    do_max_sliding_window(tail, [Enum.max(window) | res], k, tl(window) ++ [head])
+  end
 end
 
 IO.inspect("Sliding Window Median")
@@ -59,3 +85,11 @@ Solution.median_sliding_window([1,3,-1,-3,5,3,6,7], 1) |> IO.inspect()
 Solution.median_sliding_window([1,3,-1,-3,5,3,6,7], 10) |> IO.inspect()
 # Output: []
 
+
+IO.inspect("Sliding Window Maximum")
+Solution.max_sliding_window([1,3,-1,-3,5,3,6,7], 3) |> IO.inspect()
+# Output: [3,3,5,5,6,7]
+Solution.max_sliding_window([1], 1) |> IO.inspect()
+# Output: [1]
+Solution.max_sliding_window([1,3,-1,-3,5,3,6,7], 10) |> IO.inspect()
+# Output: []
