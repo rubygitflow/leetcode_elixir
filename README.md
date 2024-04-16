@@ -9,6 +9,7 @@ Solving algorithmic problems on leetcode.com
 - [146. LRU Cache](https://leetcode.com/problems/lru-cache/) >>> [lru_cache.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/lru_cache.exs)
 - [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) >>> [two_sum.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/two_sum.exs)
 - [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) >>> [valid_anagram.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/valid_anagram.exs)
+- [480. Sliding Window Median](https://leetcode.com/problems/sliding-window-median/) >>> [sliding_window_median.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/sliding_window_median.exs)
 - [704. Binary Search](https://leetcode.com/problems/binary-search/) >>> [binary_search.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/binary_search.exs)
 - [870. Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/) >>> [advantage_shuffle.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/advantage_shuffle.exs)
 - [949. Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits/) >>> [largest_time_for_given_digits.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/largest_time_for_given_digits.exs)
@@ -44,7 +45,7 @@ Solving algorithmic problems on leetcode.com
 ## Addition
 - Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/matching_strings_up_to_letter_permutation.exs)
 
-**Tasks: 39(1)  >>> Files: 36**
+**Tasks: 40(1)  >>> Files: 37**
 
 ## Install
 ```shell
