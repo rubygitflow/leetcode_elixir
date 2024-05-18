@@ -1,6 +1,9 @@
 # https://leetcode.com/problems/find-edges-in-shortest-paths/description/
 # 3123. Find Edges in Shortest Paths
 
+
+# https://rosettacode.org/wiki/Priority_queue#Elixir
+# https://www.erlang.org/doc/man/gb_trees
 defmodule PriorityQueue do
   defstruct [:tree]
 
@@ -21,9 +24,8 @@ defmodule PriorityQueue do
       0 ->
         :empty
       _else ->
-        IO.inspect(q.tree)
         {priority, element, tree} = :gb_trees.take_smallest(q.tree)
-        {{priority, element}, %{q | tree: tree}}
+        {{priority, element}, %__MODULE__{tree: tree}}
     end
   end
 end
@@ -37,9 +39,12 @@ defmodule Solution do
       pq = PriorityQueue.new([{10, 2},{8, 3}])
       pq = PriorityQueue.push(pq,{5,1})
       pq = PriorityQueue.push(pq,{0,0})
+      IO.inspect("pq.tree-0")
       IO.inspect(pq.tree)
       IO.inspect(PriorityQueue.size(pq))
-      {{_priority, _element}, _pq} = PriorityQueue.pop(pq)
+      {{_priority, _element}, pq} = PriorityQueue.pop(pq)
+      IO.inspect("pq.tree-3")
+      IO.inspect(pq.tree)
     end
   end
 end
