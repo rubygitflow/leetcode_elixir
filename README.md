@@ -45,11 +45,12 @@ Solving algorithmic problems on leetcode.com
 - [2976. Minimum Cost to Convert String I](https://leetcode.com/problems/minimum-cost-to-convert-string-i/) >>> [minimum_cost_to_convert_string.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/minimum_cost_to_convert_string.exs)
 - [2977. Minimum Cost to Convert String II](https://leetcode.com/problems/minimum-cost-to-convert-string-ii/) >>> [minimum_cost_to_convert_string.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/minimum_cost_to_convert_string.exs)
 - [3083. Existence of a Substring in a String and Its Reverse](https://leetcode.com/problems/existence-of-a-substring-in-a-string-and-its-reverse/) >>> [existence_substring_in_string.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/existence_substring_in_string.exs)
+- [3123. Find Edges in Shortest Paths](https://leetcode.com/problems/find-edges-in-shortest-paths/) >>> [find_edges_in_shortest_paths.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/find_edges_in_shortest_paths.exs)
 
 ## Addition
 - Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/matching_strings_up_to_letter_permutation.exs)
 
-**Tasks: 44(1)  >>> Files: 39**
+**Tasks: 45(1)  >>> Files: 40**
 
 ## Install
 ```shell

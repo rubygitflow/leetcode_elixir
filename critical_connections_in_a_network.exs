@@ -1,5 +1,5 @@
-# https://leetcode.com/problems/corporate-flight-bookings/description/
-# 1109. Corporate Flight Bookings
+# https://leetcode.com/problems/critical-connections-in-a-network/description/
+# 1192. Critical Connections in a Network
 
 defmodule TarjanState do
   defstruct [:discovered, :lowest, :visited, :bridges, :times]
