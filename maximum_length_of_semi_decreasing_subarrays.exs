@@ -6,13 +6,16 @@ defmodule Solution do
   def max_subarray_length_dec(nums) do
     d =
       Enum.with_index(nums) |> Enum.reduce(Map.new(), fn {x, i}, acc ->
+        # create the reverse order of ids
         Map.update(acc, x, [i], &[i | &1])
       end)
     {ans, _} = d
       |> Map.keys()
+      # Decreasing array
       |> Enum.sort(&(&1 >= &2))
       |> Enum.reduce({0, 10 ** 12}, fn x, {ans, k} ->
         {
+          # utilize the reverse order of ids by hd(), last()
           Enum.max([ans, hd(Map.get(d, x)) - k + 1]),
           Enum.min([k,   List.last(Map.get(d, x))               ])
         }
@@ -24,13 +27,16 @@ defmodule Solution do
   def max_subarray_length_inc(nums) do
     d =
       Enum.with_index(nums) |> Enum.reduce(Map.new(), fn {x, i}, acc ->
+        # create the reverse order of ids
         Map.update(acc, x, [i], &[i | &1])
       end)
     {ans, _} = d
       |> Map.keys()
+      # Increasing array
       |> Enum.sort()
       |> Enum.reduce({0, 10 ** 12}, fn x, {ans, k} ->
         {
+          # utilize the reverse order of ids by hd(), last()
           Enum.max([ans, hd(Map.get(d, x)) - k + 1]),
           Enum.min([k,   List.last(Map.get(d, x))               ])
         }
