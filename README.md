@@ -42,6 +42,7 @@ Solving algorithmic problems on leetcode.com
 - [1929. Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/) >>> [concatenation_of_array.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/concatenation_of_array.exs)
 - [2073. Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets/) >>> [time_needed_to_buy.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/time_needed_to_buy.exs)
 - [2380. Time Needed to Rearrange a Binary String](https://leetcode.com/problems/time-needed-to-rearrange-a-binary-string/) >>> [time_needed_to_rearrange.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/time_needed_to_rearrange.exs)
+- [2863. Maximum Length of Semi-Decreasing Subarrays](https://leetcode.com/problems/maximum-length-of-semi-decreasing-subarrays/) >>> [maximum_length_of_semi_decreasing_subarrays.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/maximum_length_of_semi_decreasing_subarrays.exs)
 - [2976. Minimum Cost to Convert String I](https://leetcode.com/problems/minimum-cost-to-convert-string-i/) >>> [minimum_cost_to_convert_string.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/minimum_cost_to_convert_string.exs)
 - [2977. Minimum Cost to Convert String II](https://leetcode.com/problems/minimum-cost-to-convert-string-ii/) >>> [minimum_cost_to_convert_string.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/minimum_cost_to_convert_string.exs)
 - [3083. Existence of a Substring in a String and Its Reverse](https://leetcode.com/problems/existence-of-a-substring-in-a-string-and-its-reverse/) >>> [existence_substring_in_string.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/existence_substring_in_string.exs)
@@ -49,8 +50,9 @@ Solving algorithmic problems on leetcode.com
 
 ## Addition
 - Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/matching_strings_up_to_letter_permutation.exs)
+- Maximum Length of Semi-Increasing Subarrays >>> [maximum_length_of_semi_decreasing_subarrays.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/maximum_length_of_semi_decreasing_subarrays.exs)
 
-**Tasks: 45(1)  >>> Files: 40**
+**Tasks: 46(2)  >>> Files: 41**
 
 ## Install
 ```shell
