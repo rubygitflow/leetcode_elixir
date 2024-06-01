@@ -37,4 +37,3 @@ IO.inspect(Solution.greatest_letter("AbCdEfGhIjK"))
 # Output: ""
 IO.inspect(Solution.greatest_letter("a рр AzФiфA"))
 # Output: "Ф"
-
