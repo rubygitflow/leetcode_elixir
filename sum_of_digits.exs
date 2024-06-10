@@ -21,4 +21,4 @@ IO.inspect(Solution.get_lucky("iiii", 1))
 IO.inspect(Solution.get_lucky("leetcode", 2))
 # Output: 6
 IO.inspect(Solution.get_lucky("zbax", 2))
-# Output: 6
+# Output: 8
