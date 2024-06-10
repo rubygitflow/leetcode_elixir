@@ -42,6 +42,7 @@ Solving algorithmic problems on leetcode.com
 - [1929. Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/) >>> [concatenation_of_array.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/concatenation_of_array.exs)
 - [2073. Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets/) >>> [time_needed_to_buy.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/time_needed_to_buy.exs)
 - [2220. Minimum Bit Flips to Convert Number](https://leetcode.com/problems/minimum-bit-flips-to-convert-number/) >>> [minimum_bit_flips.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/minimum_bit_flips.exs)
+- [2221. Find Triangular Sum of an Array](https://leetcode.com/problems/find-triangular-sum-of-an-array/) >>> [find_triangular_sum.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/find_triangular_sum.exs)
 - [2243. Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/) >>> [calculate_digit_sum_of_string.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/calculate_digit_sum_of_string.exs)
 - [2285. Maximum Total Importance of Roads](https://leetcode.com/problems/maximum-total-importance-of-roads/) >>> [maximum_total_importance.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/maximum_total_importance.exs)
 - [2287. Rearrange Characters to Make Target String](https://leetcode.com/problems/rearrange-characters-to-make-target-string/) >>> [rearrange_characters.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/rearrange_characters.exs)
@@ -59,7 +60,7 @@ Solving algorithmic problems on leetcode.com
 - Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/matching_strings_up_to_letter_permutation.exs)
 - Maximum Length of Semi-Increasing Subarrays >>> [maximum_length_of_semi_decreasing_subarrays.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/maximum_length_of_semi_decreasing_subarrays.exs)
 
-**Tasks: 53(2)  >>> Files: 48**
+**Tasks: 54(2)  >>> Files: 49**
 
 ## Install
 ```shell
