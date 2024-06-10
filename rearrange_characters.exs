@@ -27,8 +27,18 @@ defmodule Solution do
   #   |> String.graphemes
   #   |> Enum.reduce(%{}, &to_count_map/2)
   # end
+
+  @spec sum_of_unique(nums :: [integer]) :: integer
+  def sum_of_unique(nums) do
+    nums
+    |> Enum.frequencies()
+    |> Enum.filter(fn {_number, count} -> count == 1 end)
+    |> Enum.map(&elem(&1, 0))
+    |> Enum.sum()
+  end
 end
 
+IO.inspect("Rearrange Characters to Make Target String")
 IO.inspect(Solution.rearrange_characters("ilovecodingonleetcode","code"))
 # Output: 2
 IO.inspect(Solution.rearrange_characters("abcba","abc"))
@@ -37,3 +47,11 @@ IO.inspect(Solution.rearrange_characters("abbaccaddaeea","aaaaa"))
 # Output: 1
 IO.inspect(Solution.rearrange_characters("abbaccaddaeea","фd"))
 # Output: 0
+
+IO.inspect("Sum of Unique Elements")
+IO.inspect(Solution.sum_of_unique([1,2,3,2]))
+# Output: 4
+IO.inspect(Solution.sum_of_unique([1,1,1,1,1]))
+# Output: 0
+IO.inspect(Solution.sum_of_unique([1,2,3,4,5]))
+# Output: 15
