@@ -10,6 +10,7 @@ Solving algorithmic problems on leetcode.com
 - [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) >>> [two_sum.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/two_sum.exs)
 - [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) >>> [sliding_window_median.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/sliding_window_median.exs)
 - [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) >>> [valid_anagram.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/valid_anagram.exs)
+- [357. Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/) >>> [count_special_integers.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/count_special_integers.exs)
 - [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) >>> [first_unique_character.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/first_unique_character.exs)
 - [480. Sliding Window Median](https://leetcode.com/problems/sliding-window-median/) >>> [sliding_window_median.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/sliding_window_median.exs)
 - [704. Binary Search](https://leetcode.com/problems/binary-search/) >>> [binary_search.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/binary_search.exs)
@@ -64,7 +65,7 @@ Solving algorithmic problems on leetcode.com
 - Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/matching_strings_up_to_letter_permutation.exs)
 - Maximum Length of Semi-Increasing Subarrays >>> [maximum_length_of_semi_decreasing_subarrays.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/maximum_length_of_semi_decreasing_subarrays.exs)
 
-**Tasks: 58(2)  >>> Files: 52**
+**Tasks: 59(2)  >>> Files: 53**
 
 ## Install
 ```shell
