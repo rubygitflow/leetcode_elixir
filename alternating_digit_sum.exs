@@ -4,7 +4,7 @@
 #############################
 # https://leetcode.com/problems/add-digits/description/
 # 258. Add Digits
-
+# Explanation: https://algo.monster/liteproblems/258
 
 import Integer
 
@@ -34,6 +34,13 @@ defmodule Solution do
     )
   end
   def add_digits(num), do: num
+
+  @spec add_digits_ii(num :: integer) :: integer
+  def add_digits_ii(num) do
+    case rem(num-1, 9) do
+      x -> x+1
+    end
+  end
 end
 
 IO.inspect("Alternating Digit Sum")
@@ -57,3 +64,13 @@ IO.inspect(Solution.add_digits(886995))
 # 8+8+6+9+9+5=45
 # 4+5=9
 # Output: 9
+
+IO.inspect("Add Digits (Time complexity: O(1))")
+IO.inspect(Solution.add_digits_ii(38))
+# Output: 2
+IO.inspect(Solution.add_digits_ii(0))
+# Output: 0
+IO.inspect(Solution.add_digits_ii(886995))
+# Output: 9
+IO.inspect(Solution.add_digits_ii(1))
+# Output: 1
