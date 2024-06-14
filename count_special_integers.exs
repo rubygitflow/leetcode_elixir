@@ -9,8 +9,8 @@ defmodule Solution do
       n == 0 -> 1
       n == 1 -> 10
       true ->
-         factor = [9] ++ (1..(n-1) |> Enum.map(fn x -> 10 - x end))
-         take_num(factor, 1, 0) + 1
+        factor = [9] ++ (1..(n-1) |> Enum.map(fn x -> 10 - x end))
+        take_num(factor, 1, 0) + 1
     end
   end
 

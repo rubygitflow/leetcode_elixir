@@ -54,6 +54,7 @@ Solving algorithmic problems on leetcode.com
 - [2309. Greatest English Letter in Upper and Lower Case](https://leetcode.com/problems/greatest-english-letter-in-upper-and-lower-case/) >>> [greatest_letter.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/greatest_letter.exs)
 - [2351. First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice/) >>> [first_letter_to_appear_twice.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/first_letter_to_appear_twice.exs)
 - [2380. Time Needed to Rearrange a Binary String](https://leetcode.com/problems/time-needed-to-rearrange-a-binary-string/) >>> [time_needed_to_rearrange.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/time_needed_to_rearrange.exs)
+- [2544. Alternating Digit Sum](https://leetcode.com/problems/alternating-digit-sum/) >>> [alternating_digit_sum.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/alternating_digit_sum.exs)
 - [2727. Is Object Empty](https://leetcode.com/problems/is-object-empty/) >>> [is_object_empty.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/is_object_empty.exs)
 - [2863. Maximum Length of Semi-Decreasing Subarrays](https://leetcode.com/problems/maximum-length-of-semi-decreasing-subarrays/) >>> [maximum_length_of_semi_decreasing_subarrays.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/maximum_length_of_semi_decreasing_subarrays.exs)
 - [2976. Minimum Cost to Convert String I](https://leetcode.com/problems/minimum-cost-to-convert-string-i/) >>> [minimum_cost_to_convert_string.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/minimum_cost_to_convert_string.exs)
@@ -65,7 +66,7 @@ Solving algorithmic problems on leetcode.com
 - Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/matching_strings_up_to_letter_permutation.exs)
 - Maximum Length of Semi-Increasing Subarrays >>> [maximum_length_of_semi_decreasing_subarrays.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/maximum_length_of_semi_decreasing_subarrays.exs)
 
-**Tasks: 59(2)  >>> Files: 53**
+**Tasks: 60(2)  >>> Files: 54**
 
 ## Install
 ```shell
