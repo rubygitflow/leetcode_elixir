@@ -65,7 +65,7 @@ IO.inspect(Solution.add_digits(886995))
 # 4+5=9
 # Output: 9
 
-IO.inspect("Add Digits (Time complexity: O(1))")
+IO.inspect("Add Digits (digital root - Time complexity: O(1))")
 IO.inspect(Solution.add_digits_ii(38))
 # Output: 2
 IO.inspect(Solution.add_digits_ii(0))
