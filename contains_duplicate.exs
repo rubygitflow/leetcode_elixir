@@ -5,6 +5,10 @@
 # https://leetcode.com/problems/contains-duplicate-ii/description/
 # 219. Contains Duplicate II
 
+####################
+# https://leetcode.com/problems/contains-duplicate-iii/description/
+# 220. Contains Duplicate III
+
 
 defmodule Solution do
   @spec contains_duplicate(nums :: [integer]) :: boolean
@@ -49,7 +53,7 @@ defmodule Solution do
   def contains_nearby_almost_duplicate(_, _, value_diff) when value_diff < 0, do: false
   def contains_nearby_almost_duplicate(nums, index_diff, value_diff) do
     Enum.reduce_while(nums, {false, 0, %{}}, fn num, {_, i, visited} ->
-      idx = num / (value_diff + 1)
+      idx = div( num, (value_diff + 1))
       with true <- visited?(idx, i, num, index_diff, value_diff, visited) do
         {:halt, {true, nil, nil}}
       else
