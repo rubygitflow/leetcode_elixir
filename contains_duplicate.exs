@@ -42,6 +42,34 @@ defmodule Solution do
     end)
     |> elem(0)
   end
+
+  @spec contains_nearby_almost_duplicate(nums :: [integer], index_diff :: integer, value_diff :: integer) :: boolean
+  def contains_nearby_almost_duplicate([], _, _), do: false
+  def contains_nearby_almost_duplicate(_, index_diff, _) when index_diff < 1, do: false
+  def contains_nearby_almost_duplicate(_, _, value_diff) when value_diff < 0, do: false
+  def contains_nearby_almost_duplicate(nums, index_diff, value_diff) do
+    Enum.reduce_while(nums, {false, 0, %{}}, fn num, {_, i, visited} ->
+      idx = num / (value_diff + 1)
+      with true <- visited?(idx, i, num, index_diff, value_diff, visited) do
+        {:halt, {true, nil, nil}}
+      else
+        _ ->
+          {:cont, {false, i + 1, Map.put(visited, idx, {i, num})}}
+      end
+    end)
+    |> elem(0)
+  end
+
+  defp visited?(idx, i, num, index_diff, value_diff, visited) do
+    ( Map.has_key?(visited, idx) &&
+      i - elem(Map.get(visited, idx), 0) <= index_diff) or
+    ( Map.has_key?(visited, idx-1) &&
+      i - elem(Map.get(visited, idx-1), 0) <= index_diff &&
+      abs(num - elem(Map.get(visited, idx-1), 1)) <= value_diff) or
+    ( Map.has_key?(visited, idx+1) &&
+      i - elem(Map.get(visited, idx+1), 0) <= index_diff &&
+      abs(num - elem(Map.get(visited, idx+1), 1)) <= value_diff)
+  end
 end
 
 IO.inspect("Contains Duplicate (pattern matching)")
@@ -66,4 +94,12 @@ IO.inspect(Solution.contains_nearby_duplicate([1,2,3,1], 3))
 IO.inspect(Solution.contains_nearby_duplicate([1,0,1,1], 1))
 # Output: true
 IO.inspect(Solution.contains_nearby_duplicate([1,2,3,1,2,3], 2))
+# Output: false
+
+IO.inspect("Contains Duplicate III")
+IO.inspect(Solution.contains_nearby_almost_duplicate([1,2,3,1], 3, 0))
+# Output: true
+IO.inspect(Solution.contains_nearby_almost_duplicate([1,5,9,1,5,9], 2, 3))
+# Output: false
+IO.inspect(Solution.contains_nearby_almost_duplicate([], 2, 3))
 # Output: false

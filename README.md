@@ -10,6 +10,7 @@ Solving algorithmic problems on leetcode.com
 - [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) >>> [two_sum.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/two_sum.exs)
 - [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) >>> [contains_duplicate.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/contains_duplicate.exs)
 - [219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) >>> [contains_duplicate.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/contains_duplicate.exs)
+- [220. Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/) >>> [contains_duplicate.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/contains_duplicate.exs)
 - [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) >>> [sliding_window_median.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/sliding_window_median.exs)
 - [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) >>> [valid_anagram.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/valid_anagram.exs)
 - [258. Add Digits](https://leetcode.com/problems/add-digits/) >>> [alternating_digit_sum.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/alternating_digit_sum.exs)
@@ -69,7 +70,7 @@ Solving algorithmic problems on leetcode.com
 - Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/matching_strings_up_to_letter_permutation.exs)
 - Maximum Length of Semi-Increasing Subarrays >>> [maximum_length_of_semi_decreasing_subarrays.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/maximum_length_of_semi_decreasing_subarrays.exs)
 
-**Tasks: 63(2)  >>> Files: 54**
+**Tasks: 64(2)  >>> Files: 54**
 
 ## Install
 ```shell
