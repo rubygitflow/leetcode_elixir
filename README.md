@@ -8,6 +8,7 @@ Solving algorithmic problems on leetcode.com
 - [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) >>> [binary_search.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/binary_search.exs)
 - [146. LRU Cache](https://leetcode.com/problems/lru-cache/) >>> [lru_cache.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/lru_cache.exs)
 - [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) >>> [two_sum.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/two_sum.exs)
+- [202. Happy Number](https://leetcode.com/problems/happy-number/) >>> [sum_of_digits.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/sum_of_digits.exs)
 - [204. Count Primes](https://leetcode.com/problems/count-primes/) >>> [count_primes.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/count_primes.exs)
 - [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) >>> [contains_duplicate.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/contains_duplicate.exs)
 - [219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) >>> [contains_duplicate.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/contains_duplicate.exs)
@@ -71,7 +72,7 @@ Solving algorithmic problems on leetcode.com
 - Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/matching_strings_up_to_letter_permutation.exs)
 - Maximum Length of Semi-Increasing Subarrays >>> [maximum_length_of_semi_decreasing_subarrays.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/maximum_length_of_semi_decreasing_subarrays.exs)
 
-**Tasks: 65(2)  >>> Files: 55**
+**Tasks: 66(2)  >>> Files: 55**
 
 ## Install
 ```shell
