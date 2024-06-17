@@ -5,6 +5,7 @@ Solving algorithmic problems on leetcode.com
 - [15. 3Sum](https://leetcode.com/problems/3sum/) >>> [three_sum.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/three_sum.exs)
 - [18. 4Sum](https://leetcode.com/problems/4sum/) >>> [four_sum.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/four_sum.exs)
 - [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/) >>> [valid_anagram.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/valid_anagram.exs)
+- [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/) >>> [sqrt_x.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/sqrt_x.exs)
 - [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) >>> [binary_search.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/binary_search.exs)
 - [146. LRU Cache](https://leetcode.com/problems/lru-cache/) >>> [lru_cache.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/lru_cache.exs)
 - [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) >>> [two_sum.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/two_sum.exs)
@@ -72,7 +73,7 @@ Solving algorithmic problems on leetcode.com
 - Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/matching_strings_up_to_letter_permutation.exs)
 - Maximum Length of Semi-Increasing Subarrays >>> [maximum_length_of_semi_decreasing_subarrays.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/maximum_length_of_semi_decreasing_subarrays.exs)
 
-**Tasks: 66(2)  >>> Files: 55**
+**Tasks: 67(2)  >>> Files: 56**
 
 ## Install
 ```shell
