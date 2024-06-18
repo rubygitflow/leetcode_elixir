@@ -51,6 +51,7 @@ Solving algorithmic problems on leetcode.com
 - [1736. Latest Time by Replacing Hidden Digits](https://leetcode.com/problems/latest-time-by-replacing-hidden-digits/) >>> [latest_time_by_replacing_hidden_digits.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/latest_time_by_replacing_hidden_digits.exs)
 - [1744. Can You Eat Your Favorite Candy on Your Favorite Day?](https://leetcode.com/problems/can-you-eat-your-favorite-candy-on-your-favorite-day/) >>> [favorite_candy_on_favorite_day.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/favorite_candy_on_favorite_day.exs)
 - [1748. Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/) >>> [rearrange_characters.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/rearrange_characters.exs)
+- [1871. Jump Game VII](https://leetcode.com/problems/jump-game-vii/) >>> [jump_game.exs](https://github.com/rubygitflow/leetcode_ruby/blob/master/jump_game.exs)
 - [1929. Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/) >>> [concatenation_of_array.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/concatenation_of_array.exs)
 - [1945. Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/) >>> [sum_of_digits.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/sum_of_digits.exs)
 - [2073. Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets/) >>> [time_needed_to_buy.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/time_needed_to_buy.exs)
@@ -74,7 +75,7 @@ Solving algorithmic problems on leetcode.com
 - Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/matching_strings_up_to_letter_permutation.exs)
 - Maximum Length of Semi-Increasing Subarrays >>> [maximum_length_of_semi_decreasing_subarrays.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/maximum_length_of_semi_decreasing_subarrays.exs)
 
-**Tasks: 68(2)  >>> Files: 57**
+**Tasks: 69(2)  >>> Files: 57**
 
 ## Install
 ```shell
