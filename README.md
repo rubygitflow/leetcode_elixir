@@ -2,6 +2,7 @@
 Solving algorithmic problems on leetcode.com
 
 - [1. Two Sum](https://leetcode.com/problems/two-sum/) >>> [two_sum.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/two_sum.exs)
+- [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) >>> [common_prefix.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/common_prefix.exs)
 - [15. 3Sum](https://leetcode.com/problems/3sum/) >>> [three_sum.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/three_sum.exs)
 - [18. 4Sum](https://leetcode.com/problems/4sum/) >>> [four_sum.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/four_sum.exs)
 - [38. Count and Say](https://leetcode.com/problems/count-and-say/) >>> [count_and_say.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/count_and_say.exs)
@@ -77,7 +78,7 @@ Solving algorithmic problems on leetcode.com
 - Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/matching_strings_up_to_letter_permutation.exs)
 - Maximum Length of Semi-Increasing Subarrays >>> [maximum_length_of_semi_decreasing_subarrays.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/maximum_length_of_semi_decreasing_subarrays.exs)
 
-**Tasks: 71(2)  >>> Files: 59**
+**Tasks: 72(2)  >>> Files: 60**
 
 ## Install
 ```shell
