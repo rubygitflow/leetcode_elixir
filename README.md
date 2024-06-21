@@ -8,6 +8,7 @@ Solving algorithmic problems on leetcode.com
 - [15. 3Sum](https://leetcode.com/problems/3sum/) >>> [three_sum.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/three_sum.exs)
 - [18. 4Sum](https://leetcode.com/problems/4sum/) >>> [four_sum.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/four_sum.exs)
 - [38. Count and Say](https://leetcode.com/problems/count-and-say/) >>> [count_and_say.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/count_and_say.exs)
+- [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) >>> [container_with_most_water.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/container_with_most_water.exs)
 - [43. Multiply Strings](https://leetcode.com/problems/multiply-strings/) >>> [multiply_strings.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/multiply_strings.exs)
 - [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/) >>> [valid_anagram.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/valid_anagram.exs)
 - [55. Jump Game](https://leetcode.com/problems/jump-game/) >>> [jump_game.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/jump_game.exs)
@@ -81,7 +82,7 @@ Solving algorithmic problems on leetcode.com
 - Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/matching_strings_up_to_letter_permutation.exs)
 - Maximum Length of Semi-Increasing Subarrays >>> [maximum_length_of_semi_decreasing_subarrays.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/maximum_length_of_semi_decreasing_subarrays.exs)
 
-**Tasks: 75(2)  >>> Files: 62**
+**Tasks: 76(2)  >>> Files: 62**
 
 ## Install
 ```shell
