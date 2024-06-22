@@ -17,6 +17,7 @@ Solving algorithmic problems on leetcode.com
 - [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/) >>> [sqrt_x.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/sqrt_x.exs)
 - [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) >>> [binary_search.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/binary_search.exs)
 - [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) >>> [best_time_to_buy_and_sell_stock.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/best_time_to_buy_and_sell_stock.exs)
+- [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) >>> [best_time_to_buy_and_sell_stock.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/best_time_to_buy_and_sell_stock.exs)
 - [146. LRU Cache](https://leetcode.com/problems/lru-cache/) >>> [lru_cache.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/lru_cache.exs)
 - [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) >>> [two_sum.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/two_sum.exs)
 - [202. Happy Number](https://leetcode.com/problems/happy-number/) >>> [sum_of_digits.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/sum_of_digits.exs)
@@ -85,7 +86,7 @@ Solving algorithmic problems on leetcode.com
 - Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/matching_strings_up_to_letter_permutation.exs)
 - Maximum Length of Semi-Increasing Subarrays >>> [maximum_length_of_semi_decreasing_subarrays.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/maximum_length_of_semi_decreasing_subarrays.exs)
 
-**Tasks: 79(2)  >>> Files: 65**
+**Tasks: 80(2)  >>> Files: 65**
 
 ## Install
 ```shell
