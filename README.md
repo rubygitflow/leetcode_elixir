@@ -47,6 +47,7 @@ Solving algorithmic problems on leetcode.com
 - [1109. Corporate Flight Bookings](https://leetcode.com/problems/corporate-flight-bookings/) >>> [corporate_flight_bookings.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/corporate_flight_bookings.exs)
 - [1189. Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/) >>> [maximum_number_of_balloons.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/maximum_number_of_balloons.exs)
 - [1192. Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/) >>> [critical_connections_in_a_network.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/critical_connections_in_a_network.exs)
+- [1243. Array Transformation](https://leetcode.com/problems/array-transformation/) >>> [array_transformation.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/array_transformation.exs)
 - [1266. Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/) >>> [minimum_time_visiting_all_points.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/minimum_time_visiting_all_points.exs)
 - [1375. Number of Times Binary String Is Prefix-Aligned](https://leetcode.com/problems/number-of-times-binary-string-is-prefix-aligned/) >>> [number_of_times_binary_string.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/number_of_times_binary_string.exs)
 - [1376. Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/) >>> [time_needed_to_inform.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/time_needed_to_inform.exs)
@@ -90,7 +91,7 @@ Solving algorithmic problems on leetcode.com
 - Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/matching_strings_up_to_letter_permutation.exs)
 - Maximum Length of Semi-Increasing Subarrays >>> [maximum_length_of_semi_decreasing_subarrays.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/maximum_length_of_semi_decreasing_subarrays.exs)
 
-**Tasks: 84(2)  >>> Files: 65**
+**Tasks: 85(2)  >>> Files: 66**
 
 ## Install
 ```shell
