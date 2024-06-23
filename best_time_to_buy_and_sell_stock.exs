@@ -22,6 +22,12 @@
 # 309. Best Time to Buy and Sell Stock with Cooldown
 # Explanation: https://algo.monster/liteproblems/309
 
+
+#######################
+# https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/description/
+# 714. Best Time to Buy and Sell Stock with Transaction Fee
+
+
 defmodule Solution do
   @spec max_profit(prices :: [integer]) :: integer
   def max_profit(prices) do
@@ -109,17 +115,53 @@ defmodule Solution do
 
   @spec max_profit_with_hold(prices :: [integer]) :: integer
   def max_profit_with_hold(prices) do
-    Enum.reduce(prices, {0, 0, 5000, 0}, &do_reduce/2)
+    Enum.reduce(prices, {0, 0, 5000, 0}, &do_max_profit_with_hold/2)
     |> elem(0)
   end
 
-  defp do_reduce(x, {a1, a2, cost, acc}) do
+  defp do_max_profit_with_hold(x, {a1, a2, cost, acc}) do
     sell = acc + x - cost
     ans = max(sell, a1)
     if sell < a2 do
       {ans, a1, x, a2}
     else
       {ans, a1, cost, acc}
+    end
+  end
+
+  @spec max_profit_after_fee(prices :: [integer], fee :: integer) :: integer
+  def max_profit_after_fee(prices, fee) do
+    if length(prices) < 2 do
+      0
+    else
+      transactions = prices
+        |> Enum.chunk_every(2, 1, :discard)
+        |> Enum.reduce([], fn [prev, curr], transactions ->
+          cond do
+            prev < curr -> [{prev, curr} | transactions]
+            true -> transactions
+          end
+        end)
+        |> Enum.reverse()
+
+      # merged_deals =
+      tl(transactions)
+        |> Enum.reduce([hd(transactions)], fn {prev, curr}, [hd_merged | tl_merged] ->
+          {a, b} = hd_merged
+          cond do
+            b == prev || b <  prev + fee -> [{a, curr} | tl_merged]
+            true -> [{prev, curr} | [hd_merged | tl_merged]]
+          end
+        end)
+        |> Enum.reverse()
+      # merged_deals
+        |> Enum.reduce(0, fn {prev, curr}, sum ->
+          if curr - prev > fee do
+            sum + curr - prev - fee
+          else
+            sum
+          end
+        end)
     end
   end
 end
@@ -182,4 +224,13 @@ IO.inspect("Best Time to Buy and Sell Stock with Cooldown")
 IO.inspect(Solution.max_profit_with_hold([1,2,3,0,2]))
 # Output: 3
 IO.inspect(Solution.max_profit_with_hold([1]))
+# Output: 0
+
+
+IO.inspect("Best Time to Buy and Sell Stock with Transaction Fee")
+IO.inspect(Solution.max_profit_after_fee([1,3,2,8,4,9], 2))
+# Output: 8
+IO.inspect(Solution.max_profit_after_fee([1,3,7,5,10,3], 3))
+# Output: 6
+IO.inspect(Solution.max_profit_after_fee([8,9,7,6,8,8], 2))
 # Output: 0
