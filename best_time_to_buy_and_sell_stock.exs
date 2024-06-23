@@ -17,6 +17,11 @@
 # 188. Best Time to Buy and Sell Stock IV
 
 
+#######################
+# https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/description/
+# 309. Best Time to Buy and Sell Stock with Cooldown
+# Explanation: https://algo.monster/liteproblems/309
+
 defmodule Solution do
   @spec max_profit(prices :: [integer]) :: integer
   def max_profit(prices) do
@@ -101,6 +106,22 @@ defmodule Solution do
       |> Enum.sum()
     end
   end
+
+  @spec max_profit_with_hold(prices :: [integer]) :: integer
+  def max_profit_with_hold(prices) do
+    Enum.reduce(prices, {0, 0, 5000, 0}, &do_reduce/2)
+    |> elem(0)
+  end
+
+  defp do_reduce(x, {a1, a2, cost, acc}) do
+    sell = acc + x - cost
+    ans = max(sell, a1)
+    if sell < a2 do
+      {ans, a1, x, a2}
+    else
+      {ans, a1, cost, acc}
+    end
+  end
 end
 
 
@@ -155,3 +176,10 @@ IO.inspect(Solution.max_profit_iv(2, [3,2,6,7,5,0,3]))
 # Output: 8
 IO.inspect(Solution.max_profit_iv(2, [3,2,6,5,0,3]))
 # Output: 7
+
+
+IO.inspect("Best Time to Buy and Sell Stock with Cooldown")
+IO.inspect(Solution.max_profit_with_hold([1,2,3,0,2]))
+# Output: 3
+IO.inspect(Solution.max_profit_with_hold([1]))
+# Output: 0
