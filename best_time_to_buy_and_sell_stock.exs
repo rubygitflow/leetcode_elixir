@@ -12,6 +12,10 @@
 # 123. Best Time to Buy and Sell Stock III
 
 
+# ######################
+# https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/description/
+# 188. Best Time to Buy and Sell Stock IV
+
 
 defmodule Solution do
   @spec max_profit(prices :: [integer]) :: integer
@@ -74,6 +78,29 @@ defmodule Solution do
       |> Enum.sum()
     end
   end
+
+  @spec max_profit_iv(k :: integer, prices :: [integer]) :: integer
+  def max_profit_iv(k, prices) do
+    if length(prices) < 2 do
+      0
+    else
+      prices
+      |> Enum.reduce({[0], hd(prices)}, fn price, {[hd_prof| tl_prof], buy} ->
+        cond do
+          price > buy ->
+            {[hd_prof + price - buy| tl_prof] , price}
+          price < buy ->
+            {[ 0 | [hd_prof| tl_prof]] , price}
+          true ->
+            {[hd_prof| tl_prof], buy}
+        end
+      end)
+      |> elem(0)
+      |> Enum.sort(&(&1 >= &2))
+      |> Enum.take(k)
+      |> Enum.sum()
+    end
+  end
 end
 
 
@@ -119,3 +146,12 @@ IO.inspect(Solution.max_profit_iii([7]))
 # Output: 0
 IO.inspect(Solution.max_profit_iii([]))
 # Output: 0
+
+
+IO.inspect("Best Time to Buy and Sell Stock IV")
+IO.inspect(Solution.max_profit_iv(2, [2,4,1]))
+# Output: 2
+IO.inspect(Solution.max_profit_iv(2, [3,2,6,7,5,0,3]))
+# Output: 8
+IO.inspect(Solution.max_profit_iv(2, [3,2,6,5,0,3]))
+# Output: 7
