@@ -19,6 +19,7 @@ Solving algorithmic problems on leetcode.com
 - [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) >>> [best_time_to_buy_and_sell_stock.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/best_time_to_buy_and_sell_stock.exs)
 - [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) >>> [best_time_to_buy_and_sell_stock.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/best_time_to_buy_and_sell_stock.exs)
 - [123. Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) >>> [best_time_to_buy_and_sell_stock.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/best_time_to_buy_and_sell_stock.exs)
+- [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) >>> [longest_consecutive_sequence.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/longest_consecutive_sequence.exs)
 - [146. LRU Cache](https://leetcode.com/problems/lru-cache/) >>> [lru_cache.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/lru_cache.exs)
 - [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) >>> [two_sum.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/two_sum.exs)
 - [188. Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) >>> [best_time_to_buy_and_sell_stock.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/best_time_to_buy_and_sell_stock.exs)
@@ -93,7 +94,7 @@ Solving algorithmic problems on leetcode.com
 - Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/matching_strings_up_to_letter_permutation.exs)
 - Maximum Length of Semi-Increasing Subarrays >>> [maximum_length_of_semi_decreasing_subarrays.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/maximum_length_of_semi_decreasing_subarrays.exs)
 
-**Tasks: 87(2)  >>> Files: 68**
+**Tasks: 88(2)  >>> Files: 69**
 
 ## Install
 ```shell
