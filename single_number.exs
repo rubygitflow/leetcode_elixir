@@ -14,7 +14,11 @@ defmodule Solution do
 
   @spec single_number_ii(nums :: [integer]) :: integer
   def single_number_ii(nums) do
-    hd(for {a, b} <- Enum.frequencies(nums), b == 1, do: a)
+    try do
+      hd(for {a, b} <- Enum.frequencies(nums), b == 1, do: a)
+    rescue
+      _ -> 0
+    end
   end
 end
 
@@ -34,3 +38,5 @@ IO.inspect(Solution.single_number_ii([2,2,3,2]))
 # Output: 3
 IO.inspect(Solution.single_number_ii([0,1,0,1,0,1,99]))
 # Output: 99
+IO.inspect(Solution.single_number_ii([0,1,0,1,0,1]))
+# Output: 0

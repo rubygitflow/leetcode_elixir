@@ -25,4 +25,3 @@ IO.inspect(Solution.minimum_money([[3,0],[0,3]]))
 # Output: 3
 IO.inspect(Solution.minimum_money([[7, 2], [5, 0], [4, 1], [5, 8], [5, 9], [0, 10]]))
 # Output: 18
-
