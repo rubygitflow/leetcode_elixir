@@ -14,6 +14,19 @@ defmodule Solution do
     end
   end
   defp do_make_fancy_string(_, _, _, acc), do: acc
+
+  def make_fancy_string_ii(s) do
+    s
+    |> String.to_charlist
+    |> Enum.reduce({"","",""}, fn ch, {acc, prev_ch, prev2_ch} ->
+      {
+        if(ch == prev_ch && ch == prev2_ch, do: acc, else: <<acc::bytes, ch>>),
+        ch,
+        prev_ch
+      }
+    end)
+    |> elem(0)
+  end
 end
 
 
@@ -22,4 +35,11 @@ IO.inspect(Solution.make_fancy_string("leeetcode"))
 IO.inspect(Solution.make_fancy_string("aaabaaaa"))
 # Output: "aabaa"
 IO.inspect(Solution.make_fancy_string("aab"))
+# Output: "aab"
+
+IO.inspect(Solution.make_fancy_string_ii("leeetcode"))
+# Output: "leetcode"
+IO.inspect(Solution.make_fancy_string_ii("aaabaaaa"))
+# Output: "aabaa"
+IO.inspect(Solution.make_fancy_string_ii("aab"))
 # Output: "aab"
