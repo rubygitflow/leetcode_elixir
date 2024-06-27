@@ -72,6 +72,7 @@ Solving algorithmic problems on leetcode.com
 - [1871. Jump Game VII](https://leetcode.com/problems/jump-game-vii/) >>> [jump_game.exs](https://github.com/rubygitflow/leetcode_ruby/blob/master/jump_game.exs)
 - [1929. Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/) >>> [concatenation_of_array.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/concatenation_of_array.exs)
 - [1945. Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/) >>> [sum_of_digits.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/sum_of_digits.exs)
+- [1957. Delete Characters to Make Fancy String](https://leetcode.com/problems/delete-characters-to-make-fancy-string/) >>> [delete_characters_to_make_fancy_string.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/delete_characters_to_make_fancy_string.exs)
 - [1958. Check if Move is Legal](https://leetcode.com/problems/check-if-move-is-legal/) >>> [check_if_move_is_legal.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/check_if_move_is_legal.exs)
 - [1974. Minimum Time to Type Word Using Special Typewriter](https://leetcode.com/problems/minimum-time-to-type-word-using-special-typewriter/) >>> [minimum_time_to_type_word_using_special_typewriter.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/minimum_time_to_type_word_using_special_typewriter.exs)
 - [1975. Maximum Matrix Sum](https://leetcode.com/problems/maximum-matrix-sum/description/) >>> [maximum_matrix_sum.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/maximum_matrix_sum.exs)
@@ -99,7 +100,7 @@ Solving algorithmic problems on leetcode.com
 - Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/matching_strings_up_to_letter_permutation.exs)
 - Maximum Length of Semi-Increasing Subarrays >>> [maximum_length_of_semi_decreasing_subarrays.exs](https://github.com/rubygitflow/leetcode_elixir/blob/master/maximum_length_of_semi_decreasing_subarrays.exs)
 
-**Tasks: 93(2)  >>> Files: 73**
+**Tasks: 94(2)  >>> Files: 74**
 
 ## Install
 ```shell
