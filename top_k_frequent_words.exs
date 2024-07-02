@@ -7,7 +7,7 @@ defmodule Solution do
     words
     |> Enum.frequencies()
     |> Enum.sort_by(fn {word, count} -> {-count, word} end)
-    |> Enum.take(k)
+    |> Enum.take(if k == 0, do: length(words), else: abs(k))
     |> Enum.map(fn {word, _} -> word end)
   end
 
