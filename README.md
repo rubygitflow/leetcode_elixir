@@ -114,3 +114,8 @@ $ git clone git@github.com:rubygitflow/leetcode_elixir.git && cd leetcode_elixir
 ```shell
 $ elixir latest_time_by_replacing_hidden_digits.exs
 ```
+
+## Run tests
+```shell
+$ elixir test/full_test.exs
+```
