@@ -3,14 +3,29 @@ ExUnit.start(autorun: false, capture_log: true)
 
 import ExUnit.CaptureIO
 
-capture_io(fn ->
-  Code.require_file("../collect_all_apples_in_tree.exs", __DIR__)
-end)
-capture_io(fn ->
-  Code.require_file("../single_number.exs", __DIR__)
-end)
-capture_io(fn ->
-  Code.require_file("../top_k_frequent_words.exs", __DIR__)
+# Read all the solutions at once
+# {:ok, files} = File.ls()
+# # files |> IO.inspect()
+# Enum.each(files, fn file ->
+#   unless File.dir?(file) do
+#     if String.match?(file, ~r/.\.exs$/) do
+#       capture_io(fn ->
+#         Code.require_file("../#{file}", __DIR__)
+#       end)
+#     end
+#   end
+# end)
+
+# Read only the prepared solutions
+[
+  "collect_all_apples_in_tree.exs",
+  "single_number.exs",
+  "top_k_frequent_words.exs",
+]
+|> Enum.each(fn file ->
+    capture_io(fn ->
+      Code.require_file("../#{file}", __DIR__)
+    end)
 end)
 
 
