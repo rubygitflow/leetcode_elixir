@@ -1,7 +1,7 @@
 # https://leetcode.com/problems/top-k-frequent-words/description/
 # 692. Top K Frequent Words
 
-defmodule Solution do
+defmodule Solution347_692 do
   @spec top_k_frequent_words(words :: [String.t], k :: integer) :: [String.t]
   def top_k_frequent_words(words, k) do
     words
@@ -22,30 +22,30 @@ defmodule Solution do
 end
 
 IO.inspect("Top K Frequent Words")
-IO.inspect(Solution.top_k_frequent_words(["i","love","leetcode","i","love","coding"], 2))
+IO.inspect(Solution347_692.top_k_frequent_words(["i","love","leetcode","i","love","coding"], 2))
 # Output: ["i","love"]
-IO.inspect(Solution.top_k_frequent_words(["the","day","is","sunny","the","the","the","sunny","is","is"], 4))
+IO.inspect(Solution347_692.top_k_frequent_words(["the","day","is","sunny","the","the","the","sunny","is","is"], 4))
 # Output: ["the","is","sunny","day"]
-IO.inspect(Solution.top_k_frequent_words(["the","the","the","day","sunny","sunny","is","is","is"], 2))
+IO.inspect(Solution347_692.top_k_frequent_words(["the","the","the","day","sunny","sunny","is","is","is"], 2))
 # Output: ["is", "the"]
-IO.inspect(Solution.top_k_frequent_words(["the","the","the","day","sunny","sunny","is","is","is"], 6))
+IO.inspect(Solution347_692.top_k_frequent_words(["the","the","the","day","sunny","sunny","is","is","is"], 6))
 # Output: ["is", "the", "sunny", "day"]
 
 
 IO.inspect("Top K Frequent Elements")
-IO.inspect(Solution.top_k_frequent_elements([1,1,1,2,2,3], 2))
+IO.inspect(Solution347_692.top_k_frequent_elements([1,1,1,2,2,3], 2))
 # Output: [1,2]
-IO.inspect(Solution.top_k_frequent_elements([1], 1))
+IO.inspect(Solution347_692.top_k_frequent_elements([1], 1))
 # Output: [1]
-IO.inspect(Solution.top_k_frequent_elements([10,11,13,25,22,30,42,10], 2))
+IO.inspect(Solution347_692.top_k_frequent_elements([10,11,13,25,22,30,42,10], 2))
 # Output: [10, 11]
-IO.inspect(Solution.top_k_frequent_elements([10,11,13,25,22,30,42,10], 3))
+IO.inspect(Solution347_692.top_k_frequent_elements([10,11,13,25,22,30,42,10], 3))
 # Output: [10, 11, 13]
-IO.inspect(Solution.top_k_frequent_elements([10,11,13,25,22,30,42,10], 0))
+IO.inspect(Solution347_692.top_k_frequent_elements([10,11,13,25,22,30,42,10], 0))
 # Output: [10, 11, 13, 22, 25, 30, 42]
-IO.inspect(Solution.top_k_frequent_elements([10,11,13,25,22,30,42,10], -2))
+IO.inspect(Solution347_692.top_k_frequent_elements([10,11,13,25,22,30,42,10], -2))
 # Output: [10, 11]
-IO.inspect(Solution.top_k_frequent_elements([1,1,1,2,2,3,0,0,0,5,5,5], 2))
+IO.inspect(Solution347_692.top_k_frequent_elements([1,1,1,2,2,3,0,0,0,5,5,5], 2))
 # Output: [0, 1]
-IO.inspect(Solution.top_k_frequent_elements([1,1,1,2,2,3,5,5,5,0,0,0], 2))
+IO.inspect(Solution347_692.top_k_frequent_elements([1,1,1,2,2,3,5,5,5,0,0,0], 2))
 # Output: [0, 1]

@@ -1,7 +1,7 @@
 # https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/description/
 # 1443. Minimum Time to Collect All Apples in a Tree
 
-defmodule Solution do
+defmodule Solution1443 do
   @spec min_time(n :: integer, edges :: [[integer]], has_apple :: [boolean]) :: integer
   def min_time(n, edges, has_apple) do
     g = Enum.reduce(edges, %{}, fn [x, y], map ->
@@ -29,15 +29,15 @@ defmodule Solution do
   end
 end
 
-Solution.min_time(7,[[0,1],[0,2],[1,4],[1,5],[2,3],[2,6]],[false,false,true,false,true,true,false]) |> IO.inspect()
+Solution1443.min_time(7,[[0,1],[0,2],[1,4],[1,5],[2,3],[2,6]],[false,false,true,false,true,true,false]) |> IO.inspect()
 # Output: 8 
-Solution.min_time(7,[[0,1],[0,2],[1,4],[1,5],[2,3],[2,6]],[false,false,true,false,false,true,false]) |> IO.inspect()
+Solution1443.min_time(7,[[0,1],[0,2],[1,4],[1,5],[2,3],[2,6]],[false,false,true,false,false,true,false]) |> IO.inspect()
 # Output: 6
-Solution.min_time(7,[[0,1],[0,2],[1,4],[1,5],[2,3],[2,6]],[false,false,false,false,false,false,false]) |> IO.inspect()
+Solution1443.min_time(7,[[0,1],[0,2],[1,4],[1,5],[2,3],[2,6]],[false,false,false,false,false,false,false]) |> IO.inspect()
 # Output: 0
-Solution.min_time(7,[[0,1],[0,2],[1,4],[1,5],[2,3],[2,6]],[true,false,false,false,false,false,false]) |> IO.inspect()
+Solution1443.min_time(7,[[0,1],[0,2],[1,4],[1,5],[2,3],[2,6]],[true,false,false,false,false,false,false]) |> IO.inspect()
 # Output: 0
-Solution.min_time(9,[[0,1],[0,2],[1,4],[1,5],[2,3],[2,6],[4,7],[4,8]],[false,false,false,false,false,false,false,false,true]) |> IO.inspect()
+Solution1443.min_time(9,[[0,1],[0,2],[1,4],[1,5],[2,3],[2,6],[4,7],[4,8]],[false,false,false,false,false,false,false,false,true]) |> IO.inspect()
 # Output: 6
-Solution.min_time(9,[[0,1],[0,2],[1,4],[1,5],[2,3],[2,6],[4,7],[4,8]],[false,true,false,false,true,false,false,false,true]) |> IO.inspect()
+Solution1443.min_time(9,[[0,1],[0,2],[1,4],[1,5],[2,3],[2,6],[4,7],[4,8]],[false,true,false,false,true,false,false,false,true]) |> IO.inspect()
 # Output: 6
