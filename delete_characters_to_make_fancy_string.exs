@@ -1,7 +1,7 @@
 # https://leetcode.com/problems/delete-characters-to-make-fancy-string/description/
 # 1957. Delete Characters to Make Fancy String
 
-defmodule Solution do
+defmodule Solution1957 do
   @spec make_fancy_string(s :: String.t) :: String.t
   def make_fancy_string(s) do
     do_make_fancy_string(s, nil, nil, <<>>)
@@ -30,16 +30,18 @@ defmodule Solution do
 end
 
 
-IO.inspect(Solution.make_fancy_string("leeetcode"))
+IO.inspect("Delete Characters to Make Fancy String (FOR-loop)")
+IO.inspect(Solution1957.make_fancy_string("leeetcode"))
 # Output: "leetcode"
-IO.inspect(Solution.make_fancy_string("aaabaaaa"))
+IO.inspect(Solution1957.make_fancy_string("aaabaaaa"))
 # Output: "aabaa"
-IO.inspect(Solution.make_fancy_string("aab"))
+IO.inspect(Solution1957.make_fancy_string("aab"))
 # Output: "aab"
 
-IO.inspect(Solution.make_fancy_string_ii("leeetcode"))
+IO.inspect("Delete Characters to Make Fancy String (reduce)")
+IO.inspect(Solution1957.make_fancy_string_ii("leeetcode"))
 # Output: "leetcode"
-IO.inspect(Solution.make_fancy_string_ii("aaabaaaa"))
+IO.inspect(Solution1957.make_fancy_string_ii("aaabaaaa"))
 # Output: "aabaa"
-IO.inspect(Solution.make_fancy_string_ii("aab"))
+IO.inspect(Solution1957.make_fancy_string_ii("aab"))
 # Output: "aab"
