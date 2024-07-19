@@ -1,8 +1,9 @@
 # https://hexdocs.pm/ex_unit/1.17/ExUnit.html#functions
 # https://hexdocs.pm/ex_unit/1.17/ExUnit.Assertions.html
 
-ExUnit.start(autorun: false, capture_log: true)
-# ExUnit.configure(exclude: :pending, trace: true)
+ExUnit.start(autorun: false, capture_log: true, exclude: :skip, trace: true)
+# add @tag to exclude the test:
+#   @tag :skip
 
 import ExUnit.CaptureIO
 
@@ -25,6 +26,7 @@ import ExUnit.CaptureIO
   "single_number.exs",
   "top_k_frequent_words.exs",
   "delete_characters_to_make_fancy_string.exs",
+  "count_number_of_special_subsequences.exs",
 ]
 |> Enum.each(fn file ->
     capture_io(fn ->
@@ -35,6 +37,15 @@ end)
 
 defmodule FullTest do
   use ExUnit.Case
+
+  test "Count Number of Special Subsequences" do
+    assert Solution1955.count_special_subsequences([0,1,2]) == 1
+    assert Solution1955.count_special_subsequences([0,1,2,0]) == 1
+    assert Solution1955.count_special_subsequences([0,1,2,2]) == 3
+    assert Solution1955.count_special_subsequences([2,2,0,0]) == 0
+    assert Solution1955.count_special_subsequences([0,1,2,0,1,2]) == 7
+  end
+
 
   test "Delete Characters to Make Fancy String (FOR-loop)" do
     assert Solution1957.make_fancy_string("leeetcode") == "leetcode"
