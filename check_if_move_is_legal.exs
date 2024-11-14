@@ -1,13 +1,9 @@
 # https://leetcode.com/problems/check-if-move-is-legal/
 # 1958. Check if Move is Legal
 
-defmodule Solution do
+defmodule Solution1958 do
   @spec check_move(board :: [[char]], r_move :: integer, c_move :: integer, color :: char) :: boolean
   def check_move(board, r_move, c_move, color) do
-    IO.inspect("color: #{color}")
-    # Enum.each(board, &IO.puts/1)
-    Enum.each(board, &IO.inspect/1)
-
     do_check_move(
       [{0, 1}, {0, -1}, {1, 0}, {-1, 0}, {1, 1}, {-1, -1}, {1, -1}, {-1, 1}],
       board |> List.flatten |> List.to_tuple,
@@ -43,8 +39,15 @@ defmodule Solution do
 end
 
 {board, r_move, c_move, color} = {[[".",".",".","B",".",".",".","."],[".",".",".","W",".",".",".","."],[".",".",".","W",".",".",".","."],[".",".",".","W",".",".",".","."],["W","B","B",".","W","W","W","B"],[".",".",".","B",".",".",".","."],[".",".",".","B",".",".",".","."],[".",".",".","W",".",".",".","."]], 4, 3, "B"}
-IO.inspect(Solution.check_move(board, r_move, c_move, color))
+IO.inspect("color: #{color}")
+# Enum.each(board, &IO.puts/1)
+Enum.each(board, &IO.inspect/1)
+IO.inspect(Solution1958.check_move(board, r_move, c_move, color))
 # Output: true
+
 {board, r_move, c_move, color} = {[[".",".",".",".",".",".",".","."],[".","B",".",".","W",".",".","."],[".",".","W",".",".",".",".","."],[".",".",".","W","B",".",".","."],[".",".",".",".",".",".",".","."],[".",".",".",".","B","W",".","."],[".",".",".",".",".",".","W","."],[".",".",".",".",".",".",".","B"]], 4, 4, "W"}
-IO.inspect(Solution.check_move(board, r_move, c_move, color))
+IO.inspect("color: #{color}")
+# Enum.each(board, &IO.puts/1)
+Enum.each(board, &IO.inspect/1)
+IO.inspect(Solution1958.check_move(board, r_move, c_move, color))
 # Output: false

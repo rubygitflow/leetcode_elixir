@@ -28,7 +28,7 @@
 # 714. Best Time to Buy and Sell Stock with Transaction Fee
 
 
-defmodule Solution do
+defmodule Solution121_122_123_188_309_714 do
   @spec max_profit(prices :: [integer]) :: integer
   def max_profit(prices) do
     if length(prices) < 2 do
@@ -168,69 +168,69 @@ end
 
 
 IO.inspect("Best Time to Buy and Sell Stock")
-IO.inspect(Solution.max_profit([7,1,5,3,6,4]))
+IO.inspect(Solution121_122_123_188_309_714.max_profit([7,1,5,3,6,4]))
 # Output: 5
-IO.inspect(Solution.max_profit([7,6,4,3,1]))
+IO.inspect(Solution121_122_123_188_309_714.max_profit([7,6,4,3,1]))
 # Output: 0
 
 
 IO.inspect("Best Time to Buy and Sell Stock II")
-IO.inspect(Solution.max_profit_ii([7,1,5,3,6,4]))
+IO.inspect(Solution121_122_123_188_309_714.max_profit_ii([7,1,5,3,6,4]))
 # Output: 7
-IO.inspect(Solution.max_profit_ii([1,2,3,4,5]))
+IO.inspect(Solution121_122_123_188_309_714.max_profit_ii([1,2,3,4,5]))
 # Output: 4
-IO.inspect(Solution.max_profit_ii([7,6,4,3,1]))
+IO.inspect(Solution121_122_123_188_309_714.max_profit_ii([7,6,4,3,1]))
 # Output: 0
-IO.inspect(Solution.max_profit_ii([7]))
+IO.inspect(Solution121_122_123_188_309_714.max_profit_ii([7]))
 # Output: 0
-IO.inspect(Solution.max_profit_ii([]))
+IO.inspect(Solution121_122_123_188_309_714.max_profit_ii([]))
 # Output: 0
 
-IO.inspect(Solution.max_profit_ii_ex([7,1,5,3,6,4]))
+IO.inspect(Solution121_122_123_188_309_714.max_profit_ii_ex([7,1,5,3,6,4]))
 # Output: 7
-IO.inspect(Solution.max_profit_ii_ex([1,2,3,4,5]))
+IO.inspect(Solution121_122_123_188_309_714.max_profit_ii_ex([1,2,3,4,5]))
 # Output: 4
-IO.inspect(Solution.max_profit_ii_ex([7,6,4,3,1]))
+IO.inspect(Solution121_122_123_188_309_714.max_profit_ii_ex([7,6,4,3,1]))
 # Output: 0
-IO.inspect(Solution.max_profit_ii_ex([7]))
+IO.inspect(Solution121_122_123_188_309_714.max_profit_ii_ex([7]))
 # Output: 0
-IO.inspect(Solution.max_profit_ii_ex([]))
+IO.inspect(Solution121_122_123_188_309_714.max_profit_ii_ex([]))
 # Output: 0
 
 
 IO.inspect("Best Time to Buy and Sell Stock III")
-IO.inspect(Solution.max_profit_iii([3,3,5,0,0,3,1,4]))
+IO.inspect(Solution121_122_123_188_309_714.max_profit_iii([3,3,5,0,0,3,1,4]))
 # Output: 6
-IO.inspect(Solution.max_profit_iii([1,2,3,4,5]))
+IO.inspect(Solution121_122_123_188_309_714.max_profit_iii([1,2,3,4,5]))
 # Output: 4
-IO.inspect(Solution.max_profit_iii([7,6,4,3,1]))
+IO.inspect(Solution121_122_123_188_309_714.max_profit_iii([7,6,4,3,1]))
 # Output: 0
-IO.inspect(Solution.max_profit_iii([7]))
+IO.inspect(Solution121_122_123_188_309_714.max_profit_iii([7]))
 # Output: 0
-IO.inspect(Solution.max_profit_iii([]))
+IO.inspect(Solution121_122_123_188_309_714.max_profit_iii([]))
 # Output: 0
 
 
 IO.inspect("Best Time to Buy and Sell Stock IV")
-IO.inspect(Solution.max_profit_iv(2, [2,4,1]))
+IO.inspect(Solution121_122_123_188_309_714.max_profit_iv(2, [2,4,1]))
 # Output: 2
-IO.inspect(Solution.max_profit_iv(2, [3,2,6,7,5,0,3]))
+IO.inspect(Solution121_122_123_188_309_714.max_profit_iv(2, [3,2,6,7,5,0,3]))
 # Output: 8
-IO.inspect(Solution.max_profit_iv(2, [3,2,6,5,0,3]))
+IO.inspect(Solution121_122_123_188_309_714.max_profit_iv(2, [3,2,6,5,0,3]))
 # Output: 7
 
 
 IO.inspect("Best Time to Buy and Sell Stock with Cooldown")
-IO.inspect(Solution.max_profit_with_hold([1,2,3,0,2]))
+IO.inspect(Solution121_122_123_188_309_714.max_profit_with_hold([1,2,3,0,2]))
 # Output: 3
-IO.inspect(Solution.max_profit_with_hold([1]))
+IO.inspect(Solution121_122_123_188_309_714.max_profit_with_hold([1]))
 # Output: 0
 
 
 IO.inspect("Best Time to Buy and Sell Stock with Transaction Fee")
-IO.inspect(Solution.max_profit_after_fee([1,3,2,8,4,9], 2))
+IO.inspect(Solution121_122_123_188_309_714.max_profit_after_fee([1,3,2,8,4,9], 2))
 # Output: 8
-IO.inspect(Solution.max_profit_after_fee([1,3,7,5,10,3], 3))
+IO.inspect(Solution121_122_123_188_309_714.max_profit_after_fee([1,3,7,5,10,3], 3))
 # Output: 6
-IO.inspect(Solution.max_profit_after_fee([8,9,7,6,8,8], 2))
+IO.inspect(Solution121_122_123_188_309_714.max_profit_after_fee([8,9,7,6,8,8], 2))
 # Output: 0

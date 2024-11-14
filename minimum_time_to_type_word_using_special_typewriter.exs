@@ -1,7 +1,7 @@
 # https://leetcode.com/problems/minimum-time-to-type-word-using-special-typewriter/description/
 # 1974. Minimum Time to Type Word Using Special Typewriter
 
-defmodule Solution do
+defmodule Solution1974 do
   @spec min_time_to_type(word :: String.t) :: integer
   def min_time_to_type(word) do
     do_min_time_to_type(word, byte_size(word), ?a)
@@ -18,9 +18,9 @@ defmodule Solution do
   end
 end
 
-IO.inspect(Solution.min_time_to_type("abc"))
+IO.inspect(Solution1974.min_time_to_type("abc"))
 # Output: 5
-IO.inspect(Solution.min_time_to_type("bza"))
+IO.inspect(Solution1974.min_time_to_type("bza"))
 # Output: 7
-IO.inspect(Solution.min_time_to_type("zjpc"))
+IO.inspect(Solution1974.min_time_to_type("zjpc"))
 # Output: 34

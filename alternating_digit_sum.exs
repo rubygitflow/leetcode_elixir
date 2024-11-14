@@ -8,7 +8,7 @@
 
 import Integer
 
-defmodule Solution do
+defmodule Solution258_2544 do
   # Alternating Digit Sum
   @spec alternate_digit_sum(n :: integer) :: integer
   def alternate_digit_sum(n), do: do_alternate_digit_sum(n, 1, 0, 0)
@@ -44,33 +44,33 @@ defmodule Solution do
 end
 
 IO.inspect("Alternating Digit Sum")
-IO.inspect(Solution.alternate_digit_sum(521))
+IO.inspect(Solution258_2544.alternate_digit_sum(521))
 # Output: 4
-IO.inspect(Solution.alternate_digit_sum(111))
+IO.inspect(Solution258_2544.alternate_digit_sum(111))
 # Output: 1
-IO.inspect(Solution.alternate_digit_sum(886996))
+IO.inspect(Solution258_2544.alternate_digit_sum(886996))
 # Output: 0
-IO.inspect(Solution.alternate_digit_sum(885996))
+IO.inspect(Solution258_2544.alternate_digit_sum(885996))
 # Output: -1
-IO.inspect(Solution.alternate_digit_sum(886995))
+IO.inspect(Solution258_2544.alternate_digit_sum(886995))
 # Output: 1
 
 IO.inspect("Add Digits (recursion)")
-IO.inspect(Solution.add_digits(38))
+IO.inspect(Solution258_2544.add_digits(38))
 # Output: 2
-IO.inspect(Solution.add_digits(0))
+IO.inspect(Solution258_2544.add_digits(0))
 # Output: 0
-IO.inspect(Solution.add_digits(886995))
+IO.inspect(Solution258_2544.add_digits(886995))
 # 8+8+6+9+9+5=45
 # 4+5=9
 # Output: 9
 
 IO.inspect("Add Digits (digital root - Time complexity: O(1))")
-IO.inspect(Solution.add_digits_ii(38))
+IO.inspect(Solution258_2544.add_digits_ii(38))
 # Output: 2
-IO.inspect(Solution.add_digits_ii(0))
+IO.inspect(Solution258_2544.add_digits_ii(0))
 # Output: 0
-IO.inspect(Solution.add_digits_ii(886995))
+IO.inspect(Solution258_2544.add_digits_ii(886995))
 # Output: 9
-IO.inspect(Solution.add_digits_ii(1))
+IO.inspect(Solution258_2544.add_digits_ii(1))
 # Output: 1

@@ -1,7 +1,7 @@
 # https://leetcode.com/problems/advantage-shuffle/description/
 # 870. Advantage Shuffle
 
-defmodule Solution do
+defmodule Solution870 do
   @spec advantage_count(nums1 :: [integer], nums2 :: [integer]) :: [integer]
   def advantage_count(nums1, nums2) when length(nums1) != length(nums2), do: []
 
@@ -44,9 +44,9 @@ defmodule Solution do
   end
 end
 
-[2,7,11,15] |> Solution.advantage_count([1,10,4,11]) |> IO.inspect()
+[2,7,11,15] |> Solution870.advantage_count([1,10,4,11]) |> IO.inspect()
 # Output: [2,11,7,15]
-[12,24,8,32] |> Solution.advantage_count([13,25,32,11]) |> IO.inspect()
+[12,24,8,32] |> Solution870.advantage_count([13,25,32,11]) |> IO.inspect()
 # Output: [24,32,8,12]
-[12,24,8] |> Solution.advantage_count([13,25,32,11]) |> IO.inspect()
+[12,24,8] |> Solution870.advantage_count([13,25,32,11]) |> IO.inspect()
 # Output: []

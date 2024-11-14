@@ -3,7 +3,7 @@
 
 import Integer
 
-defmodule Solution do
+defmodule Solution1975 do
   @spec max_matrix_sum(matrix :: [[integer]]) :: integer
   def max_matrix_sum(matrix) do
     {total, cnt, mi} = matrix
@@ -20,7 +20,7 @@ defmodule Solution do
 end
 
 
-IO.inspect(Solution.max_matrix_sum([[1,-1],[-1,1]]))
+IO.inspect(Solution1975.max_matrix_sum([[1,-1],[-1,1]]))
 # Output: 4
-IO.inspect(Solution.max_matrix_sum([[1,2,3],[-1,-2,-3],[1,2,3]]))
+IO.inspect(Solution1975.max_matrix_sum([[1,2,3],[-1,-2,-3],[1,2,3]]))
 # Output: 16
